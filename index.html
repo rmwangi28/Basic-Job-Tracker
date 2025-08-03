@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "form-container">
+        <h2>Job Tracker</h2>
+    <form id ="jobForm" >
+        <input type = "text" id="company" placeholder="Company Name" required/>
+        <input type = "text" id="role" placeholder="Role" required/>
+        <input type = "text" id="date" placeholder="Date Applied" required/>
+        <input type = "text" id="pay" placeholder="Pay" required/>
+        <input type = "text" id="location" placeholder="Location" required/>
+
+        <select id = "type">
+            <option value ="remote">Remote</option>
+             <option value ="remote">Onsite</option>
+              <option value ="remote">Hybird</option>
+
+        </select>
+        <textarea id = "backstory" placeholder="Add a description of the role" rows ="3"></textarea>
+
+        <button type ="submit">Add Job</button>
+    </form>
+    <ul id="jobList"></ul>
+</div>
+<script>script.js</script>
+</body>
+
+</html>
