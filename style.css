@@ -5,6 +5,7 @@ body{
     padding: 2rem;
     display: flex;
     justify-content: center;
+  
 }
 .form-container{
    background: linear-gradient(to right, #C97960, #A0371B);
@@ -18,8 +19,7 @@ body{
     text-align: center;
     margin-bottom: 1.5rem;
     color: #333;
-    font-family: 'Open Sans';
-    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300 800;
     
 }
