@@ -38,17 +38,16 @@
     ${job.location} | Applied on : ${job.date} | ${job.type}<br/>
     <em>${job.backstory}</em>`; //backticks allows you to use HTML in JavaScript - called 
     //template literals to build dynamic content in JS
-    //${} insert variables into strings  
-
-    });
-
-
-   //resets itself after you add a job list
+    //${} insert variables into strings 
+    
+    //resets itself after you add a job list
    document.getElementById("jobList").appendChild(listItem);
    e.target.reset();
 
+    });
+
    //clear job list
-   document.getElementById("clearJobs").addEventListener("click",function(){
+   document.getElementById("clear jobs").addEventListener("click",function(){
     if (confirm("Are you sure you want to clear saved jobs?")) {
         //clear localStorage
         localStorage.removeItem("jobList");
